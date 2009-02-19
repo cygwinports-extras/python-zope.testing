@@ -1,0 +1,4 @@
+category: Python
+requires: cygwin python python-setuptools python-zope-exceptions
+sdesc: "Zope testing module"
+ldesc: "Zope testing module"
