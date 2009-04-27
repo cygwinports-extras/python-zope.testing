@@ -3,14 +3,14 @@ python-zope.testing
 Zope testing module
 
 Runtime requirements:
-  python-2.5.4-1
-  python-setuptools-0.6c9-1
-  python-zope.exceptions-3.5.2-1
+  python-2.5.4-10
+  python-setuptools-0.6c9-10
+  python-zope.exceptions-3.5.2-10
 
 Build requirements:
-  cygport-0.4.3-1
-  python-2.5.4-1
-  python-setuptools-0.6c9-1
+  cygport-0.9.6-1
+  python-2.5.4-10
+  python-setuptools-0.6c9-10
 
 Canonical website:
   http://cheeseshop.python.org/pypi/zope.testing
@@ -21,28 +21,28 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-zope.testing-3.7.1-X-src.tar.bz2
+  unpack python-zope.testing-3.7.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-zope.testing-3.7.1-X.cygport all
+  cygport ./python-zope.testing-3.7.3-X.cygport all
 
 This will create:
-  /usr/src/python-zope.testing-3.7.1-X-src.tar.bz2
-  /usr/src/python-zope.testing-3.7.1-X.tar.bz2
+  /usr/src/python-zope.testing-3.7.3-X-src.tar.bz2
+  /usr/src/python-zope.testing-3.7.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/zope.testing-3.7.1-py2.5-nspkg.pth
-  /usr/lib/python2.5/site-packages/zope.testing-3.7.1-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/zope.testing-3.7.1-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/zope.testing-3.7.1-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/zope.testing-3.7.1-py2.5.egg-info/namespace_packages.txt
-  /usr/lib/python2.5/site-packages/zope.testing-3.7.1-py2.5.egg-info/not-zip-safe
-  /usr/lib/python2.5/site-packages/zope.testing-3.7.1-py2.5.egg-info/requires.txt
-  /usr/lib/python2.5/site-packages/zope.testing-3.7.1-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/zope.testing-3.7.3-py2.5-nspkg.pth
+  /usr/lib/python2.5/site-packages/zope.testing-3.7.3-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/zope.testing-3.7.3-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/zope.testing-3.7.3-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/zope.testing-3.7.3-py2.5.egg-info/namespace_packages.txt
+  /usr/lib/python2.5/site-packages/zope.testing-3.7.3-py2.5.egg-info/not-zip-safe
+  /usr/lib/python2.5/site-packages/zope.testing-3.7.3-py2.5.egg-info/requires.txt
+  /usr/lib/python2.5/site-packages/zope.testing-3.7.3-py2.5.egg-info/top_level.txt
   /usr/lib/python2.5/site-packages/zope/testing/DEPENDENCIES.cfg
   /usr/lib/python2.5/site-packages/zope/testing/__init__.py
   /usr/lib/python2.5/site-packages/zope/testing/__init__.pyc
@@ -407,24 +407,14 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/zope/testing/tests.py
   /usr/lib/python2.5/site-packages/zope/testing/tests.pyc
   /usr/lib/python2.5/site-packages/zope/testing/tests.pyo
-  /usr/share/doc/python-zope.testing-3.7.1/Changes.txt
-  /usr/share/doc/python-zope.testing-3.7.1/README.txt
+  /usr/share/doc/python-zope.testing/README.txt
 
 ------------------
 
 Port Notes:
 
------ version 3.7.1-1 -----
-Version bump.
-
------ version 3.5.1-1 -----
-Version bump.
-
------ version 3.4-1 -----
-Version bump, built for python-2.5.
-
------ version 2.0.2-1 -----
-Initial release for Cygwin.
+----- version 3.7.3-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

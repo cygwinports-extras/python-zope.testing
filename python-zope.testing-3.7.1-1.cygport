@@ -1,2 +1,0 @@
-ORIG_PN="zope.testing"
-inherit distutils
